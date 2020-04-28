@@ -3,32 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		52BE2BD9244D893E00E629E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE2BD8244D893E00E629E5 /* AppDelegate.m */; };
 		52BE2BDC244D893E00E629E5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE2BDB244D893E00E629E5 /* SceneDelegate.m */; };
-		52BE2BDF244D893E00E629E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE2BDE244D893E00E629E5 /* ViewController.m */; };
+		52BE2BDF244D893E00E629E5 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52BE2BDE244D893E00E629E5 /* ViewController.mm */; };
 		52BE2BE2244D893E00E629E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BE2BE0244D893E00E629E5 /* Main.storyboard */; };
 		52BE2BE4244D893F00E629E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BE2BE3244D893F00E629E5 /* Assets.xcassets */; };
 		52BE2BE7244D893F00E629E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BE2BE5244D893F00E629E5 /* LaunchScreen.storyboard */; };
 		52BE2BEA244D893F00E629E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BE2BE9244D893F00E629E5 /* main.m */; };
+		52BE2BF1244D89D100E629E5 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BE2BF0244D89D100E629E5 /* View.xib */; };
+		52BE2BF5244D8E8F00E629E5 /* Mp3Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52BE2BF3244D8E8F00E629E5 /* Mp3Encoder.cpp */; };
+		52BE2C1C244FE09C00E629E5 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BE2C1A244FE09B00E629E5 /* libmp3lame.a */; };
+		52BE2C442450168A00E629E5 /* 16k.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 52BE2C432450168A00E629E5 /* 16k.pcm */; };
+		52BE2C4E2450362900E629E5 /* testcase.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 52BE2C4C2450362900E629E5 /* testcase.pcm */; };
+		52BE2C4F2450362900E629E5 /* chinaMusic.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 52BE2C4D2450362900E629E5 /* chinaMusic.pcm */; };
+		52BE2C5124503B6500E629E5 /* music.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 52BE2C5024503B6500E629E5 /* music.pcm */; };
+		AF2623D4558642C2143717E1 /* Pods_LearnAVone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA1876C722778663B0F2373 /* Pods_LearnAVone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EA1876C722778663B0F2373 /* Pods_LearnAVone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnAVone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BE2BD4244D893E00E629E5 /* LearnAVone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnAVone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BE2BD7244D893E00E629E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52BE2BD8244D893E00E629E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		52BE2BDA244D893E00E629E5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		52BE2BDB244D893E00E629E5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		52BE2BDD244D893E00E629E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		52BE2BDE244D893E00E629E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52BE2BDE244D893E00E629E5 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		52BE2BE1244D893E00E629E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52BE2BE3244D893F00E629E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52BE2BE6244D893F00E629E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52BE2BE8244D893F00E629E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52BE2BE9244D893F00E629E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52BE2BF0244D89D100E629E5 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		52BE2BF3244D8E8F00E629E5 /* Mp3Encoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mp3Encoder.cpp; sourceTree = "<group>"; };
+		52BE2BF4244D8E8F00E629E5 /* Mp3Encoder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mp3Encoder.hpp; sourceTree = "<group>"; };
+		52BE2C1A244FE09B00E629E5 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		52BE2C1B244FE09C00E629E5 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		52BE2C432450168A00E629E5 /* 16k.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; name = 16k.pcm; path = LearnAVone/16k.pcm; sourceTree = SOURCE_ROOT; };
+		52BE2C4C2450362900E629E5 /* testcase.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = testcase.pcm; sourceTree = "<group>"; };
+		52BE2C4D2450362900E629E5 /* chinaMusic.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = chinaMusic.pcm; sourceTree = "<group>"; };
+		52BE2C5024503B6500E629E5 /* music.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.pcm; sourceTree = "<group>"; };
+		7607C473E1D4E10E9EB7D13C /* Pods-LearnAVone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnAVone.release.xcconfig"; path = "Target Support Files/Pods-LearnAVone/Pods-LearnAVone.release.xcconfig"; sourceTree = "<group>"; };
+		A1F8B758D53DEFCD26B72AF5 /* Pods-LearnAVone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnAVone.debug.xcconfig"; path = "Target Support Files/Pods-LearnAVone/Pods-LearnAVone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2623D4558642C2143717E1 /* Pods_LearnAVone.framework in Frameworks */,
+				52BE2C1C244FE09C00E629E5 /* libmp3lame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +69,8 @@
 			children = (
 				52BE2BD6244D893E00E629E5 /* LearnAVone */,
 				52BE2BD5244D893E00E629E5 /* Products */,
+				8145417A9AE5839361D200AC /* Pods */,
+				AB006350AB05C3FEBB5BB772 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +85,19 @@
 		52BE2BD6244D893E00E629E5 /* LearnAVone */ = {
 			isa = PBXGroup;
 			children = (
+				52BE2C5024503B6500E629E5 /* music.pcm */,
+				52BE2C19244FE05E00E629E5 /* Lame */,
+				52BE2BF2244D8E7100E629E5 /* Mp3Encoder */,
 				52BE2BD7244D893E00E629E5 /* AppDelegate.h */,
 				52BE2BD8244D893E00E629E5 /* AppDelegate.m */,
 				52BE2BDA244D893E00E629E5 /* SceneDelegate.h */,
 				52BE2BDB244D893E00E629E5 /* SceneDelegate.m */,
 				52BE2BDD244D893E00E629E5 /* ViewController.h */,
-				52BE2BDE244D893E00E629E5 /* ViewController.m */,
+				52BE2BDE244D893E00E629E5 /* ViewController.mm */,
+				52BE2BF0244D89D100E629E5 /* View.xib */,
+				52BE2C4C2450362900E629E5 /* testcase.pcm */,
+				52BE2C4D2450362900E629E5 /* chinaMusic.pcm */,
+				52BE2C432450168A00E629E5 /* 16k.pcm */,
 				52BE2BE0244D893E00E629E5 /* Main.storyboard */,
 				52BE2BE3244D893F00E629E5 /* Assets.xcassets */,
 				52BE2BE5244D893F00E629E5 /* LaunchScreen.storyboard */,
@@ -76,6 +107,41 @@
 			path = LearnAVone;
 			sourceTree = "<group>";
 		};
+		52BE2BF2244D8E7100E629E5 /* Mp3Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				52BE2BF3244D8E8F00E629E5 /* Mp3Encoder.cpp */,
+				52BE2BF4244D8E8F00E629E5 /* Mp3Encoder.hpp */,
+			);
+			path = Mp3Encoder;
+			sourceTree = "<group>";
+		};
+		52BE2C19244FE05E00E629E5 /* Lame */ = {
+			isa = PBXGroup;
+			children = (
+				52BE2C1B244FE09C00E629E5 /* lame.h */,
+				52BE2C1A244FE09B00E629E5 /* libmp3lame.a */,
+			);
+			path = Lame;
+			sourceTree = "<group>";
+		};
+		8145417A9AE5839361D200AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1F8B758D53DEFCD26B72AF5 /* Pods-LearnAVone.debug.xcconfig */,
+				7607C473E1D4E10E9EB7D13C /* Pods-LearnAVone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB006350AB05C3FEBB5BB772 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EA1876C722778663B0F2373 /* Pods_LearnAVone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52BE2BED244D893F00E629E5 /* Build configuration list for PBXNativeTarget "LearnAVone" */;
 			buildPhases = (
+				BC592B6560C60646A4F03CCE /* [CP] Check Pods Manifest.lock */,
 				52BE2BD0244D893E00E629E5 /* Sources */,
 				52BE2BD1244D893E00E629E5 /* Frameworks */,
 				52BE2BD2244D893E00E629E5 /* Resources */,
+				70B1F8EF28E6FBD88C9AC048 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +201,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BE2C5124503B6500E629E5 /* music.pcm in Resources */,
+				52BE2C4E2450362900E629E5 /* testcase.pcm in Resources */,
+				52BE2BF1244D89D100E629E5 /* View.xib in Resources */,
+				52BE2C4F2450362900E629E5 /* chinaMusic.pcm in Resources */,
+				52BE2C442450168A00E629E5 /* 16k.pcm in Resources */,
 				52BE2BE7244D893F00E629E5 /* LaunchScreen.storyboard in Resources */,
 				52BE2BE4244D893F00E629E5 /* Assets.xcassets in Resources */,
 				52BE2BE2244D893E00E629E5 /* Main.storyboard in Resources */,
@@ -141,13 +214,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70B1F8EF28E6FBD88C9AC048 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnAVone/Pods-LearnAVone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LearnAVone/Pods-LearnAVone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LearnAVone/Pods-LearnAVone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC592B6560C60646A4F03CCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnAVone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52BE2BD0244D893E00E629E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52BE2BDF244D893E00E629E5 /* ViewController.m in Sources */,
+				52BE2BDF244D893E00E629E5 /* ViewController.mm in Sources */,
 				52BE2BD9244D893E00E629E5 /* AppDelegate.m in Sources */,
+				52BE2BF5244D8E8F00E629E5 /* Mp3Encoder.cpp in Sources */,
 				52BE2BEA244D893F00E629E5 /* main.m in Sources */,
 				52BE2BDC244D893E00E629E5 /* SceneDelegate.m in Sources */,
 			);
@@ -287,6 +403,7 @@
 		};
 		52BE2BEE244D893F00E629E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F8B758D53DEFCD26B72AF5 /* Pods-LearnAVone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +412,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LearnAVone/Lame",
+				);
+				OTHER_CFLAGS = "-DAUTO_TEST";
 				PRODUCT_BUNDLE_IDENTIFIER = chenguang.com.LearnAVone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,6 +425,7 @@
 		};
 		52BE2BEF244D893F00E629E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7607C473E1D4E10E9EB7D13C /* Pods-LearnAVone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +434,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LearnAVone/Lame",
+				);
+				OTHER_CFLAGS = "-DAUTO_TEST";
 				PRODUCT_BUNDLE_IDENTIFIER = chenguang.com.LearnAVone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
